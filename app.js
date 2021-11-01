@@ -27,21 +27,20 @@ console.log(num(getRandomInt(91)));
 
 // Task 2:
 function getCurrencySymbolFromCode(currency) {
-    if (currency == "USD") {
+    if(currency === "USD"){
         return "$";
-    }
-    else if (currency == "EUR") {
+    }else if(currency === "EUR"){
         return "€";
-    } else if (currency == "GEL") {
+    }else if(currency === "GEL"){
         return "₾";
-    } else {
-        return"undefined";
+    }else{
+        return null;
     }
 }
 
-console.log(getCurrencySymbolFromCode("EUR"));
-console.log(getCurrencySymbolFromCode("GEL"));
-
+console.log(getCurrencySymbolFromCode(currency = "USD"));
+console.log(getCurrencySymbolFromCode(currency = "EUR"));
+console.log(getCurrencySymbolFromCode(currency = "GEL"));
 // ეს 
 //const str1 = '1 €';
 //const str2 = '2 $';
