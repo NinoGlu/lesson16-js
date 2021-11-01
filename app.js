@@ -27,7 +27,7 @@ console.log(num(getRandomInt(91)));
 
 // Task 2:
 function getCurrencySymbolFromCode(currency) {
-    if (currency == " USD") {
+    if (currency == "USD") {
         return "$";
     }
     else if (currency == "EUR") {
@@ -35,11 +35,10 @@ function getCurrencySymbolFromCode(currency) {
     } else if (currency == "GEL") {
         return "₾";
     } else {
-        return "undefined";
+        return"undefined";
     }
 }
 
-console.log(getCurrencySymbolFromCode("USD"));
 console.log(getCurrencySymbolFromCode("EUR"));
 console.log(getCurrencySymbolFromCode("GEL"));
 
